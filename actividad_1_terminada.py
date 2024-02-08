@@ -69,7 +69,8 @@ print(multiplo(f,1,2,4))
 M = sp.Matrix([[1.2, 2.3, 3.4], [2.2, 8.9, 10.2], [3.3, 7.6, 8.9]])
 
 print("prueba realizada con la libreria sympy:")
-#intercambio de renglones
+
+#intercambio de filas
 M.row_swap(0,2)
 print("prueba de la operacion #1:")
 print(M)
